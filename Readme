@@ -1,0 +1,18 @@
+SSD1306 oled:
+    SDA:    D2
+    SCL:    D1
+    GND:    GND
+    VCC:    3V3
+
+DHT11:
+    VCC:    3V3
+    DATA:   D4 
+            + 10 Kohm to pull up to VCC
+    NC:
+    GND:    GND
+
+VL53L0X:
+    VIN:    3V3
+    GND:    GND
+    SCL:    D1
+    SDA:    D2
